@@ -8,3 +8,7 @@ Map<String, dynamic> person = {
   'age': age,
   'hobbies': hobbies
 };
+hobbies.addAll(["Reading", "Gaming","Football"]);
+hobbies.sort();
+bool val = hobbies.contains("Cooking");
+
