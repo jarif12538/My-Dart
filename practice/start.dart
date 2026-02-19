@@ -7,11 +7,10 @@ void main() {
     'name': name,
     'male': male,
     'age': age,
-    'hobbies': hobbies
+    'hobbies': hobbies,
   };
-  hobbies.addAll(["Reading", "Gaming","Football"]);
+  hobbies.addAll(["Reading", "Gaming", "Football"]);
   hobbies.sort();
-  bool val = hobbies.contains("Cooking");
   print(person);
   print(person['age']);
   print(person.keys.toList());
